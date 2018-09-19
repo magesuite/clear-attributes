@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <clear_attributes>
+            <clear_attributes_group>
+                <enable_clear_attributes>1</enable_clear_attributes>
+            </clear_attributes_group>
+        </clear_attributes>
+    </default>
+</config>
+
