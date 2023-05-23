@@ -35,5 +35,7 @@ class ClearAttributes extends \Symfony\Component\Console\Command\Command
         foreach ($tables as $table) {
             $output->writeln($tablesService->getDeleteSql($table));
         }
+
+        return \Magento\Framework\Console\Cli::RETURN_SUCCESS;
     }
 }
